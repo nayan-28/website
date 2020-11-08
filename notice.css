@@ -1,0 +1,33 @@
+body{
+    background: wheat;
+}
+.text{
+    color: teal;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+.thanks{
+    color: orangered;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10%;
+}
+footer{
+    margin-top: 15%;
+    text-align: center;
+    background: rgb(221, 165, 60);
+    width: 105%;
+    height: 65px;
+  }
+  p#footer-text{
+    text-shadow: 2px;
+    line-height: 4;
+    color: rgb(159, 255, 231);
+  }
+  p#campus{
+    text-align: center;
+    line-height: 4;
+    color: rgb(68, 1, 40);
+    font-size: 25px;
+}

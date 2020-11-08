@@ -1,0 +1,193 @@
+body{
+  background: rgb(233, 226, 226);
+}
+.background{
+    background: url(../website/image/Just.jpeg);
+    background-size: cover;
+   height: 800px;
+   width: 1350px;
+    z-index: -1;
+}
+.main{
+  z-index: 2;
+}
+.navbar{
+   height: 80px;
+   width: 100%;
+    background: rgb(153, 238, 150);
+}
+.logo{
+   width: 80px;
+    height: 80px;
+   position:relative;
+}
+.navbar ul{
+    float: right;
+   margin-right: 20px;
+    padding: 20px 80px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: rgb(31, 53, 4);
+    font-size: 20px;
+    padding: 6px 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .2s;
+}
+.navbar ul li a :active,
+.navbar ul li a:hover{
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+.center{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-size: 45px;
+  color: rgb(31, 2, 70);
+}
+.world{
+  position: absolute;
+  text-decoration: none;
+  margin-top: 15%;
+  right: 15%;
+  font-size: 45px;
+  color: rgb(15, 1, 34);
+}
+.option{
+    position: absolute;
+    top: 55%;
+    left: 4%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .2s;
+}
+.option form select option,
+  option form select option:hover{
+    background: hotpink;
+    border-radius: 6px;
+  }
+  .dashbord{
+    position: absolute;
+    top: 63%;
+    left: 4%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .2s;
+    padding: 0;
+    margin: 0;
+  }
+  .recover a :active,
+  .recover a:hover{
+    color: rgb(204, 255, 19);
+    border-radius: 4px;
+    background: linear-gradient(6);
+  }
+  .animation{
+    width: 150px;
+    height: 75px;
+    font-size: 50px;
+    background: chartreuse;
+    position: absolute;
+    animation:animation 8s infinite alternate-reverse;
+  }
+  @keyframes animation{
+    0%{
+      background-color: rgb(49, 241, 32);
+      left:0;
+      top: 10px;
+    }
+    50%{
+      background: rgb(29, 67, 236);
+      top:10px;
+      left:85% ;
+    }
+    100%{
+      background-color: lime;
+      top: 10;
+      left: 0;
+    }
+  }
+  .demo{
+    color: orangered;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .thanks{
+    color: orangered;
+    font-size: 35px;
+    text-align: center;
+  }
+  footer{
+    margin-top: 40vh;
+    background: rebeccapurple;
+    width: 105%;
+    height: 65px;
+    text-align: center;
+  }
+  p#footer-text{
+    text-shadow: 2px;
+    line-height: 4;
+    color: rgb(90, 253, 212);
+  }
+  p#campus{
+    text-align: center;
+    line-height: 4;
+    color: darkmagenta;
+    font-size: 25px;
+  }
+  .site ul{
+    float: inline-start;
+   margin-top: 50%;
+    padding: 20px 80px;
+  }
+  .site ul li{
+    list-style: none;
+    margin: 8px;
+    display: inline-block;
+    line-height: 80px;
+  }
+.site ul li a{
+    text-decoration: none;
+    left: 4%;
+    font-size: 20px;
+    color: rgb(33, 49, 12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .2s;
+
+}
+.site ul li a:active,
+.site ul li a:hover{
+  background: rgb(243, 10, 49);
+  border-radius: 4px;
+}
+.animation2{
+  width: 180px;
+  height: 75px;
+  font-size: 50px;
+  background: rgb(255, 187, 123);
+  position: absolute;
+  animation:animation 10s infinite alternate-reverse;
+}
+@keyframes animation2{
+  100%{
+    background-color: rgb(7, 255, 139);
+    left:0;
+    top: 10px;
+  }
+  50%{
+    background: rgb(92, 122, 255);
+    top:10px;
+    left:85% ;
+  }
+  0%{
+    background-color: rgb(1, 253, 1);
+    top: 10;
+    left: 0;

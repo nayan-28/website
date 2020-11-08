@@ -1,0 +1,30 @@
+body{
+    background: burlywood;
+}
+.location{
+    text-decoration: none;
+    text-align: center;
+}
+.thanks{
+  color: orangered;
+  font-size: 35px;
+  text-align: center;
+}
+footer{
+    margin-top: 15%;
+    text-align: center;
+    background: rgb(221, 165, 60);
+    width: 105%;
+    height: 65px;
+  }
+  p#footer-text{
+    text-shadow: 2px;
+    line-height: 4;
+    color: rgb(159, 255, 231);
+  }
+  p#campus{
+    text-align: center;
+    line-height: 4;
+    color: rgb(93, 240, 227);
+    font-size: 25px;
+}

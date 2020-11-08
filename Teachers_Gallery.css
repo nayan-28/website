@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(107, 73, 73);
+}
+.teachers{
+    text-align: center;
+    text-decoration: none;
+    font-size: 60px;
+    color: lawngreen;
+}
+.chairman{
+    color: honeydew;
+    text-align: center;
+}
+footer{
+    background: rgb(191, 128, 253);
+    width: 105%;
+    height: 65px;
+    text-align: center;
+}
+p#footer-text{
+    text-shadow: 2px;
+    line-height: 4;
+    color: rgb(159, 255, 231);
+  }
+  p#campus{
+    text-align: center;
+    line-height: 4;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.thanks{
+    color: rgb(255, 248, 246);
+    font-size: 35px;
+    text-align: center;
+}
