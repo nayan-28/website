@@ -1,6 +1,10 @@
 body{
     background-color: rgb(107, 73, 73);
 }
+.back a button:hover{
+    background: brown;
+    color: whitesmoke;
+}
 .teachers{
     text-align: center;
     text-decoration: none;

@@ -1,7 +1,10 @@
 body{
     background-color: rgb(69, 47, 90);
 }
-
+.back a button:hover{
+    background: brown;
+    color: whitesmoke;
+}
 .galance{
     text-decoration: none;
     text-align: center;

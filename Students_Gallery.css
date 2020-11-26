@@ -1,6 +1,10 @@
 body{
     background-color: rgb(132, 96, 153);
 }
+.back a button:hover{
+    background: brown;
+    color: whitesmoke;
+}
 .photo{
     text-align: center;
     text-decoration: none;
